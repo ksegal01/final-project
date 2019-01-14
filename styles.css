@@ -22,3 +22,10 @@ h1 {
   color: #00539F;
   text-shadow: 1px 1px 1px black;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
