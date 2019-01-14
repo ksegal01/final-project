@@ -1,0 +1,28 @@
+#DisasterDeaths {
+  width: 1000px;
+  height: auto;
+  display: block;
+}
+#TotalDisasters {
+  width: 1000px;
+  height: auto;
+  display: block;
+}
+#HomePage {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+#HomePage:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
+
+#Paragraphs {
+	white-space: nowrap;
+}
