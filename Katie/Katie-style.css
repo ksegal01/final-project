@@ -8,6 +8,11 @@
   height: auto;
   display: block;
 }
+#DisastersType {
+  width: 1000px;
+  height: auto;
+  display: block;
+}
 #HomePage {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
