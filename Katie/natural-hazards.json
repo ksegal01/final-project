@@ -1,0 +1,825 @@
+{
+  "head": {
+    "vars": [
+      "event", 
+      "value", 
+      "percentage", 
+      "type", 
+      "chart"
+    ]
+  }, 
+  "results": {
+    "bindings": [
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 4
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Fatalities"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Geophysical events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 4029
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EU-28"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 4
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Fatalities"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Meteorological events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 3240
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EU-28"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 3
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Fatalities"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Hydrological events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 3155
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EU-28"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 86
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Fatalities"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Climatological - Heatwave events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 77630
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EU-28"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 3
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Fatalities"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Other climatological events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 3049
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EU-28"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 17
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Total losses"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Geophysical events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 85074
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EU-28"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 32
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Total losses"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Meteorological events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 158339
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EU-28"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 32
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Total losses"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Hydrological events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 156644
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EU-28"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 5
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Total losses"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Climatological - Heatwave events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 25435
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EU-28"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 14
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Total losses"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Other climatological events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 69990
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EU-28"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 2
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Insured losses"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Geophysical events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 3019
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EU-28"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 63
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Insured losses"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Meteorological events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 91909
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EU-28"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 27
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Insured losses"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Hydrological events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 38888
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EU-28"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 1
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Insured losses"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Climatological - Heatwave events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 1191
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EU-28"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 7
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Insured losses"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Other climatological events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 9420
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EU-28"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 22
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Fatalities"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Geophysical events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 25242
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EEA-33"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 3
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Fatalities"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Meteorological events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 3935
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EEA-33"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 4
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Fatalities"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Hydrological events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 4288
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EEA-33"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 68
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Fatalities"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Climatological - Heatwave events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 78586
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EEA-33"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 3
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Fatalities"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Other climatological events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 3191
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EEA-33"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 20
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Total losses"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Geophysical events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 105349
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EEA-33"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 31
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Total losses"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Meteorological events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 169800
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EEA-33"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 31
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Total losses"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Hydrological events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 168233
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EEA-33"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 5
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Total losses"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Climatological - Heatwave events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 25814
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EEA-33"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 13
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Total losses"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Other climatological events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 72269
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EEA-33"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 3
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Insured losses"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Geophysical events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 4065
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EEA-33"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 62
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Insured losses"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Meteorological events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 97917
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EEA-33"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 28
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Insured losses"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Hydrological events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 44251
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EEA-33"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 1
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Insured losses"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Climatological - Heatwave events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 1191
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EEA-33"
+        }
+      }, 
+      {
+        "percentage": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 6
+        }, 
+        "type": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Insured losses"
+        }, 
+        "event": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Other climatological events"
+        }, 
+        "value": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 9766
+        }, 
+        "chart": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "EEA-33"
+        }
+      }
+    ]
+  }
+}

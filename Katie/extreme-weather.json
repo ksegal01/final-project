@@ -1,0 +1,1238 @@
+{
+  "head": {
+    "vars": [
+      "country", 
+      "loss_million_euro", 
+      "loss_per_capita_euro", 
+      "per_sq_km_euro", 
+      "insured_losses_million_euro", 
+      "insured_losses", 
+      "fatalities_number"
+    ]
+  }, 
+  "results": {
+    "bindings": [
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 1590
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 151719
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Austria"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 30
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 12726
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 590
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 3819
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 399
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 135318
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Belgium"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 59
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 4131
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 2165
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 2458
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 296
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 21874
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Bulgaria"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 5
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 2414
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 192
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 128
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 612
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 48478
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Croatia"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 2
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 2744
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 721
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 67
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 574
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 42166
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Cyprus"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 2
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 390
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 75
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 8
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 968
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 126978
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Czech Republic"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 34
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 10014
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 207
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 3357
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 1868
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 231833
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Denmark"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 61
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 9949
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 42
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 6054
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 72
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 2272
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Estonia"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 31
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 103
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 9
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 32
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 364
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 5535
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Finland"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 18
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 1873
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 4
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 345
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 996
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 94827
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "France"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 50
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 60043
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 23404
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 30062
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 1217
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 257835
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Germany"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 46
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 92144
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 9829
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 42795
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 679
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 54284
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Greece"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 1
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 7168
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 2405
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 81
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 561
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 61999
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Hungary"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 2
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 5767
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 703
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 127
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 279
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 756
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Iceland"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 50
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 78
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 52
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 39
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 992
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 55722
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Ireland"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 52
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 3889
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 66
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 2008
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 1072
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 204514
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Italy"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 4
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 61778
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 20629
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 2359
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 150
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 5513
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Latvia"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 13
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 356
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 92
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 47
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 186
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 36781
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Liechtenstein"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 58
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 6
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 0
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 3
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 274
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 14294
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Lithuania"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 1
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 933
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 69
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 7
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 1605
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 271571
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Luxembourg"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 59
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 702
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 130
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 415
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 160
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 192346
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Malta"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 41
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 61
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 7
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 25
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 509
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 191644
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Netherlands"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 46
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 7961
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 1728
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 3694
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 746
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 10385
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Norway"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 55
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 3362
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 40
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 1858
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 362
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 43912
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Poland"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 6
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 13730
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 1187
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 890
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 597
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 66169
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Portugal"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 5
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 6102
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 2995
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 328
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 491
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 45005
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Romania"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 1
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 10729
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 1301
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 59
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 308
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 33335
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Slovakia"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 6
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 1635
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 104
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 104
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 817
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 80391
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Slovenia"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 12
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 1630
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 241
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 200
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 828
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 68106
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Spain"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 12
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 34458
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 14602
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 4089
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 477
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 9671
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Sweden"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 27
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 4242
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 44
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 1151
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 2580
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 448240
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Switzerland "
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 51
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 18508
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 1156
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 9493
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 60
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 4792
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "Turkey"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 9
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 3755
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 1678
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 324
+        }
+      }, 
+      {
+        "loss_per_capita_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 888
+        }, 
+        "per_sq_km_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 212180
+        }, 
+        "country": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#string", 
+          "type": "typed-literal", 
+          "value": "United Kingdom"
+        }, 
+        "insured_losses": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 70
+        }, 
+        "loss_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 52734
+        }, 
+        "fatalities_number": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 3533
+        }, 
+        "insured_losses_million_euro": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#double", 
+          "type": "typed-literal", 
+          "value": 36699
+        }
+      }
+    ]
+  }
+}
