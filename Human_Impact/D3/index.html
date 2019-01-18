@@ -4,12 +4,22 @@
   <script src="https://cdn.jsdelivr.net/npm/vega@3"></script>
 	<script src="https://cdn.jsdelivr.net/npm/vega-lite@2"></script>
 	<script src="https://cdn.jsdelivr.net/npm/vega-embed@3"></script>
-  <link href="style.css" rel="stylesheet" type="text/css">
-
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+    
+    .vega-actions a {
+      padding: 0.2em;
+    }
+  </style>
 </head>
 
 <body>  
   <div id="vis"></div>
   
-<script src="chart.js"></script>
+  <script>
+    const spec = "chart.vl.json";
+  	vegaEmbed('#vis', spec).catch(console.warn);
+  </script>
 </body>

@@ -4,6 +4,20 @@
 	<link href="../styles.css" rel="stylesheet" type="text/css">
 	<link href="Katie-style.css" rel="stylesheet" type="text/css">
 	<title> Human Impact of Disasters </title>
+
+	  <meta charset="utf-8">
+  	<script src="https://cdn.jsdelivr.net/npm/vega@3"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vega-lite@2"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vega-embed@3"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+    
+    .vega-actions a {
+      padding: 0.2em;
+    }
+  </style>
 </head>
 <body>
 	<div style="display: flex; justify-content: center;">
@@ -34,19 +48,17 @@ What can we learn from this graph? As climate change impacts intensify, policyma
 <div style="display: flex; justify-content: center;">
 Regions will differ in their susceptibility to different disasters, so it is crucial to consider regional variations when planning for disaster.
 </div>
+<h1> Worldwide Deaths by Disaster Type, 1900 - 2018 </h1>
 
-<h4> insert graph showing variations in occurance of disaster by region</h4>
+ <div id="vis"></div>
+  
+  <script>
+    const spec = "chart.vl.json";
+  	vegaEmbed('#vis', spec).catch(console.warn);
+  </script>
+<a href="https://www.emdat.be/">EMDAT Source Data </a><br>
+<a href="https://bl.ocks.org/domoritz/8afa8f0ce5e03b43497e821f7a9cf216"> Vega-Lite visualization from Dominik Moritz </a>
 
-<h1>How many disasters have occured over time?</h1>
-<div style="display: flex; justify-content: center;">
-This graph shows the number of total disasters reported worldwide each year between 1900-2018, based on the data from EMDAT. This graph includes all natural disasters tracked by EMDAT, including those that are not influenced by climate change, such as earthquakes or volcanic activity.<br>
-The graph shows a distinct upward trend in the total number of disasters since 1900. 
-</div>
-<img src="../media/Total-Disasters.PNG" id="TotalDisasters">
-<a href="https://www.emdat.be/"> EMDAT Data Source </a><br>
-<div style="display: flex; justify-content: center;">
-Part of the increase may be due to improved data collection over time, with more ability to track and report disasters around the globe. However, climate change may be influencing this increase if the number of climate-related disasters (like storms) increases more drastically than non-climate disasters.<br>
-</div>
 
 <h1> What types of disasters have occured most frequently?</h1>
 <img src="../media/Disasters-by-Type.PNG" id="DisastersType">
