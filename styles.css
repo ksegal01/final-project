@@ -95,3 +95,23 @@ img {
   padding:1px;
   border:1px solid #021a40;
 }
+
+/*Style for Dima's D3 chart*/
+ #economic-impact-chart svg {
+    font: 12px sans-serif;
+    shape-rendering: crispEdges;
+  }
+
+  #economic-impact-chart .axis path,
+  #economic-impact-chart .axis line {
+    fill: none;
+    stroke: #000;
+  }
+ 
+  #economic-impact-chart path.domain {
+    stroke: none;
+  }
+ 
+  #economic-impact-chart .y .tick line {
+    stroke: #ddd;
+  }

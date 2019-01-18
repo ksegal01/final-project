@@ -1,0 +1,18 @@
+ #economic-impact-chart svg {
+    font: 12px sans-serif;
+    shape-rendering: crispEdges;
+  }
+
+  #economic-impact-chart .axis path,
+  #economic-impact-chart .axis line {
+    fill: none;
+    stroke: #000;
+  }
+ 
+  #economic-impact-chart path.domain {
+    stroke: none;
+  }
+ 
+  #economic-impact-chart .y .tick line {
+    stroke: #ddd;
+  }
