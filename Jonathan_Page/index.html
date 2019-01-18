@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<title> Tracking Rising World Temperatures' Impact on Hurricanes</title>
 
 
 <br>
+<link href="Jonathan.css" rel="stylesheet" type="text/css">
+<link href="../styles.css" rel="stylesheet" type="text/css">
+
 
 </head>
 <body>
 
-<link href="../styles.css" rel="stylesheet" type="text/css">
-<link href="Jonathan.css" rel="stylesheet" type="text/css">
 
  <div class="header">
  <h1> Tracking Rising World Temperatures with Extreme Weather Events</h1>
@@ -23,45 +25,62 @@ This page will show several visualizations that demonstrate that increase in glo
 
 <br>
 
-<h1 class="center"> Chart showing the increase in world temperature since 1880 </h1>
+<h1 class="center"> Worldwide temperature has been increasing rapidly since 1880... </h1>
 
 
-<img src="TempChart3.png" class="center"> 
+	<img src="TempChart3.png" class="center"> 
+
+	<br>
+
+<h1 class="center">...While extreme weather events are growing in frequency. </h1>
+
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+	<div class="chart-wrapper" id="chart-line1" class="border"></div>
+
+	<script src="Jonathan.js" charset="utf-8"></script>
+
+<br>
+	<a class="center" href= "https://ourworldindata.org/natural-disasters"> Source: Our World in Data </a> <br>
 
 <br>
 
-<h1 class="center"> Chart showing the increase in hurricanes and major Hurricanes since 1851 </h1>
+<h1 class="center"> For example, hurricanes and major hurricanes are becoming more frequent. </h1>
 
 
-<img src="Hurricane_Chart.png" class="center" class="border"> <br>
+	<img src="Hurricane_Chart.png" class="center" class="border"> <br>
 
+	<a class="center" href= "https://ourworldindata.org/natural-disasters"> Source: Our World in Data </a> <br>
 
-<h1 class="center"> Chart showing the increase in floods since 1900 </h1>
+<h1 class="center"> Flood occurances have grown with the most frequnecy... </h1>
 
 
 <img src="FloodChart.png" class="center" class="border"> <br>
 
+<a class="center" href= "https://ourworldindata.org/natural-disasters"> Source: Our World in Data </a> <br>
 
 <br>
 
-<h1 class="center"> Chart showing the number of droughts since 1900 </h1>
+<h1 class="center"> ...Conversely, droughts are rising as well. </h1>
 
 <img src="DroughtChart.png" class="center" class="border"> <br>
 
-
+<a class="center" href= "https://ourworldindata.org/natural-disasters"> Source: Our World in Data </a> <br>
 
 <br>
 
-<h1 class="center"> Chart showing the number of major wildfires reported globally since 1900 </h1>
+<h1 class="center"> Global reports of wildfires are increasing, as we've seen in California and other parts of the world. </h1>
 
 
 <img src="WildfireChart.png" class="center" class="border"> <br>
 
+<a class="center" href= "https://ourworldindata.org/natural-disasters"> Source: Our World in Data </a> <br>
 
+<h1 class="center"> What does all of this mean in terms of costs, human lives, and policy? Visit the next pages to find out. </h1>
 
+<a href="../index.html"> Home Page </a> <br>
 
-<a href="../index.html"> Home Page <br>
-
+<br>
 
 </body>
 </html>
