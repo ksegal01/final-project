@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+<body>
+<div class="chart-wrapper" id="chart-line1"></div>
+
+<script type="text/javascript">
+    var formatDate = d3.time.format("%Y-%m-%d");
+    d3.csv('data.csv', function(error, data) {
+        data.forEach(function (d) {
+            d.year = formatDate.parse(d.year);
+            d.variableA = +d.variableA;
+            d.variableB = +d.variableB;
+            d.variableC = +d.variableC;
+            d.variableD = +d.variableD;
+        });
+        var chart = makeLineChart(data, 'year', {
+            'Hurricanes': {column: 'variableA'},
+            'Droughts': {column: 'variableB'},
+            'Floods': {column: 'variableC'},
+            'Wildfires': {column: 'variableD'}
+        }, {xAxis: 'Year', yAxis: 'Occurances'});
+        chart.bind("#chart-line1");
+        chart.render();
+    });
+</script>
+<script src="script.js" charset="utf-8"></script>
+</body>
+</html>
