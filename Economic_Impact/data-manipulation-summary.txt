@@ -1,0 +1,8 @@
+Data manipulation steps:
+- Upload CSV dataset of ~9000 disasters from EM DAT (https://www.emdat.be/emdat_db/) (raw_data.csv)
+- Use pivot table to summarize economic impact by type of disaster
+- Identify appropriate cutoff years based on data quality (choose 1997-2017 due to data scarcity before 1997)
+- Use pivot table to filter for relevant period
+- Save as data.csv
+- Write convertdata.py to convert data into data.json
+- Write lines 19-27 in chart.js to read data.json in chart.js (original D3 code had data in the body)
