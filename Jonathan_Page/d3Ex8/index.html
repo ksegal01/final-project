@@ -10,20 +10,20 @@
 <div class="chart-wrapper" id="chart-line1"></div>
 
 <script type="text/javascript">
-    var formatDate = d3.time.format("%Y-%m-%d");
+    var formatDate = d3.time.format("%Y");
     d3.csv('data.csv', function(error, data) {
         data.forEach(function (d) {
             d.year = formatDate.parse(d.year);
-            d.variableA = +d.variableA;
-            d.variableB = +d.variableB;
-            d.variableC = +d.variableC;
-            d.variableD = +d.variableD;
+            d.Hurricanes = +d.Hurricanes;
+            d.Droughts = +d.Droughts;
+            d.Floods = +d.Floods;
+            d.Wildfires = +d.Wildfires;
         });
         var chart = makeLineChart(data, 'year', {
-            'Hurricanes': {column: 'variableA'},
-            'Droughts': {column: 'variableB'},
-            'Floods': {column: 'variableC'},
-            'Wildfires': {column: 'variableD'}
+            'Hurricanes': {column: 'Hurricanes'},
+            'Droughts': {column: 'Droughts'},
+            'Floods': {column: 'Floods'},
+            'Wildfires': {column: 'Wildfires'}
         }, {xAxis: 'Year', yAxis: 'Occurances'});
         chart.bind("#chart-line1");
         chart.render();
