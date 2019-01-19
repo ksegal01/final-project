@@ -22,34 +22,29 @@
 <body>
 	<div style="display: flex; justify-content: center;">
 <ul>
-<li><a href="final-project/index.html"><button class="button"> Home Page</button></a></li>
-<li><a href="Extreme_Weather/index.html"><button class="button"> Learn About Disaster Occurrences</button></a></li>>
-<li><a href="Perception/index.html"><button class="button"> Review Perceptions of the Impact of Disasters</button></a></li>
-<li><a href="Economic_Impact/index.html"><button class="button"> Understand the Economic Impacts of Disaster </button></a></li>
+  <li><a href="../final-project/index.html"><button class="button"> Home Page</button></a></li>
+  <li><a href="../Extreme_Weather/index.html"><button class="button"> Learn About Disaster Occurrences</button></a></li>>
+  <li><a href="../Economic_Impact/index.html"><button class="button"> Understand the Economic Impacts of Disaster </button></a></li>
+  <li><a href="../Perception/index.html"><button class="button"> Review Perceptions of the Impact of Disasters</button></a></li>
 </ul>
 </div>
 <div style="display: flex; justify-content: center;">
-<h1> Understanding the Human Impact of Disasters </h1>
+<h1> Exploring the Human Impact of Disasters </h1>
 </div>
 <div style="display: flex; justify-content: center;">
 
 <h2>Total Disaster-Related Deaths Worldwide, 1900-2018</h2></div><br>
 
 <div style="display: flex; justify-content: center;">
-The graph below shows the total number of deaths associated with droughts, floods, storms, temperature extremes, and wildfires worldwide between 1900 and 2018. These particular disaster types could be exacerbated by climate change in the coming decades. Other non-climate related disasters were reported by the data set but were not included in this particular graph (e.g., volcanoes or earthquakes).
-What can we learn from this graph? As climate change impacts intensify, policymakers should be aware that droughts and floods have been responsible historically for more deaths than storms, temperature extremes, or wildfires. Therefore, planning efforts can put more emphasis on drought and flood adaptation and prevention measures to reduce the number of lives lost.
+The graph below shows the total number of deaths associated with droughts, floods, storms, temperature extremes, and wildfires worldwide between 1900 and 2018. These particular disaster types could be exacerbated by climate change in the coming decades. Other non-climate related disasters were reported by the data set but were not included in this particular graph (e.g., volcanoes or earthquakes).<br>
+<br>
+What can we learn from this graph? As climate change impacts intensify, policymakers should be aware that droughts and floods have been responsible historically for more deaths than storms, temperature extremes, or wildfires. Therefore, planning efforts can put more emphasis on drought and flood adaptation and prevention measures to reduce the number of lives lost.<br>
+<br>
+Deaths from disasters are less common in recent years possibly because of better adaptation measures, better warning and evacuation systems, and more sophisticated and timely disaster response. This should encourage policymakers that preparation works in reducing human impact.
 </div>
 
-<img src="../media/Deaths-by-Disaster.PNG" id="DisasterDeaths">
-<a href="https://www.emdat.be/"> EMDAT Data Source </a>
 
-
-<H1> Variations by Region </H1>
-<div style="display: flex; justify-content: center;">
-Regions will differ in their susceptibility to different disasters, so it is crucial to consider regional variations when planning for disaster.
-</div>
-
-<!-- Edited Raw EMDAT data using Excel by creating Pivot table, copying and pasting pivot tables as values only, assigning disaster type to each row, and saving as disasters.CSV. Please see "Human Impact" Excel file for intermediate step. -->
+<!-- Edited Raw EMDAT data using Excel by creating Pivot table, copying and pasting pivot tables as values only, assigning disaster type to each row, and saving as disasters.CSV. Please see "Human Impact" Excel file for intermediate step. It took quite a while to get the data sorted and the visualization running so this is the result of quite a bit of effort. -->
 <h1> Worldwide Deaths by Disaster Type, 1900 - 2018 </h1>
 
  <div id="vis"></div>
@@ -58,13 +53,22 @@ Regions will differ in their susceptibility to different disasters, so it is cru
     const spec = "chart.vl.json";
   	vegaEmbed('#vis', spec).catch(console.warn);
   </script>
-<a href="https://www.emdat.be/">EMDAT Source Data </a><br>
+<a href="https://www.emdat.be/"> EMDAT Data Source </a>
 <a href="https://bl.ocks.org/domoritz/8afa8f0ce5e03b43497e821f7a9cf216"> Vega-Lite visualization from Dominik Moritz </a>
 
 
 <h1> What types of disasters have occured most frequently?</h1>
 <img src="../media/Disasters-by-Type.PNG" id="DisastersType">
 <a href="https://www.emdat.be/"> EMDAT Data Source </a><br>
+
+<H1> Regional Spotlight: Europe </H1>
+<div style="display: flex; justify-content: center;">
+Regions will differ in their susceptibility to different disasters, so it is crucial to consider regional variations when planning for disaster.
+
+
+<a href="https://www.eea.europa.eu/data-and-maps/daviz/impacts-of-extreme-weather-and#tab-chart_2"> Source: European Environment Agency, 2018.</a><br>
+</div>
+
 
 <a href="../index.html"><button type="button" id="HomePage"> Home Page </button></a>
 
