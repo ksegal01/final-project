@@ -1,3 +1,9 @@
+// This is the javascript for my D3 visualization. This took me 4-eva to get working properly. 
+// It's 200 lines of sorcery. I'll try my best to explain what it all is and how I manipulated it.
+//Much of the hardest work came at the very bottom.
+//Overall, from this experinece I learned that computers are not built upon simple to complex rules and formats,
+//but rahter magic. Just pure magic. 
+
 (function() {
     function makeLineChart(dataset, xName, yObjs, axisLables) {
         var chartObj = {};
@@ -33,6 +39,8 @@
         }
 
     //Formatter functions for the axes
+    //This was one of my first challenges, as I needed to get the data to be read in the proper time format. 
+    //The capitalization kept throwing me off
         chartObj.formatAsDate = d3.time.format("%Y");
         chartObj.formatAsNumber = d3.format(".0f");
         chartObj.formatAsDecimal = d3.format(".2f");
@@ -83,6 +91,7 @@
         chartObj.svg;
 
     // Change chart size according to window size
+    //This was really important to get it to git right on my page!
         chartObj.update_svg_size = function () {
             chartObj.width = parseInt(chartObj.chartDiv.style("width"), 10) - (chartObj.margin.left + chartObj.margin.right);
 
@@ -126,7 +135,7 @@
             return chartObj;
         };
 
-    // Render the chart
+    // Render the chart, make it do magic things
         chartObj.render = function () {
             //Create SVG element
             chartObj.svg = chartObj.chartDiv.append("svg").attr("class", "chart-area").attr("width", chartObj.width + (chartObj.margin.left + chartObj.margin.right)).attr("height", chartObj.height + (chartObj.margin.top + chartObj.margin.bottom)).append("g").attr("transform", "translate(" + chartObj.margin.left + "," + chartObj.margin.top + ")");
@@ -198,6 +207,10 @@
         return chartObj;
     }
 
+//This is where most of the work came
+//I changed the legend and made sure that the d function actually outputed the data set 
+//in the format I needed. Although it loos simple, I struggled to get this right and this took the
+//bulk of the time I spent on my D3. But not its pure magic. 
 
     var formatDate = d3.time.format("%Y");
     d3.csv('data.csv', function(error, data) {

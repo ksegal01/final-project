@@ -2,9 +2,9 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title> Tracking Rising World Temperatures' Impact on Hurricanes</title>
+	<title> Tracking Rising World Temperatures' Impact on Weather Events</title>
 
-
+<!--Adding in links to my css page and to the main css page for style consistnency-->
 <br>
 <link href="Jonathan.css" rel="stylesheet" type="text/css">
 <link href="../styles.css" rel="stylesheet" type="text/css">
@@ -15,7 +15,7 @@
 
 
  <div class="header">
- <h1> Tracking Rising World Temperatures with Extreme Weather Events</h1>
+ <h1> Tracking Rising World Temperatures Impact on Extreme Weather Events</h1>
  
 </div> 
 
@@ -24,6 +24,8 @@
 This page will show several visualizations that demonstrate that increase in global temperatures correlate with an increase in extreme weather events. Below you can find information about worldwide reports of hurricanes, floods, drought, and wilfires worldwide over the past century. You can see clearly that as global temperatures have risen, so have the frequency of extreme weather events.</P> 
 
 <br>
+
+<!--First chart, an image showing temperautre increase-->
 
 <h1 class="center"> Worldwide temperature has been increasing rapidly since 1880... </h1>
 
@@ -35,18 +37,23 @@ This page will show several visualizations that demonstrate that increase in glo
 
 <br>
 
+<!--My main D3 visualization, which takes the data in the charts from the rest of the page and shows them together in one chart. I am still going to break the individual weather events into seperate charts. If there was a third sprint, I would work to turn those into D3-->
+
 <h1 class="center">...While extreme weather events are growing in frequency. </h1>
 
-	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 
 	<div class="chart-wrapper" id="chart-line1" class="border"></div>
 
 	<script src="Jonathan.js" charset="utf-8"></script>
 
 <br>
-	<a class="center" href= "https://ourworldindata.org/natural-disasters"> Source: Our World in Data </a> <br>
+	<a class="center" href= "https://ourworldindata.org/natural-disasters"> Source: Our World in Data</a>
+	<a class="center" href= "http://www.aoml.noaa.gov/hrd/tcfaq/E11.html"> Source: NOAA</a>
 
 <br>
+
+<!--First image chart - hurricanes-->
 
 <h1 class="center"> For example, hurricanes and major hurricanes are becoming more frequent. </h1>
 
@@ -54,6 +61,8 @@ This page will show several visualizations that demonstrate that increase in glo
 	<img src="Hurricane_Chart.png" class="center" class="border"> <br>
 
 	<a class="center" href= "http://www.aoml.noaa.gov/hrd/tcfaq/E11.html"> Source: NOAA </a> <br>
+
+<!--second image chart - floods-->
 
 <h1 class="center"> Flood occurances have grown with the most frequnecy... </h1>
 
@@ -63,8 +72,8 @@ This page will show several visualizations that demonstrate that increase in glo
 <a class="center" href= "https://ourworldindata.org/natural-disasters"> Source: Our World in Data </a> <br>
 
 <br>
-
-<h1 class="center"> ...Conversely, droughts are rising as well. </h1>
+<!--third image chart - droughts-->
+<h1 class="center"> ...Even though droughts become more common. </h1>
 
 <img src="DroughtChart.png" class="center" class="border"> <br>
 
@@ -72,6 +81,7 @@ This page will show several visualizations that demonstrate that increase in glo
 
 <br>
 
+<!--fourth image chart - wildfires-->
 <h1 class="center"> Global reports of wildfires are increasing, as we've seen in California and other parts of the world. </h1>
 
 
@@ -81,18 +91,20 @@ This page will show several visualizations that demonstrate that increase in glo
 
 <h1 class="center"> What does all of this mean in terms of costs, human lives, and policy? Visit the next pages to find out. </h1>
 
-
+<!--adding navigating buttons consistent with the rest of the pages on the site-->
 <br>
 <div style="display: flex; justify-content: center;">
 <ul>
-<li><a href="Katie/index.html"><button class="button"> Human Impact of Disaster</button></a></li>>
-<li><a href="dima/index.html"><button class="button"> Economic Impacts of Disaster </button></a></li>
-<li><a href="ruha/index.html"><button class="button"> Perceived Impact of Disasters</button></a></li>
+<li><a href="../final-project/index.html"><button class="button"> <p></p><p></p> Home Page <p></p><p></p></button></a></li>
+
+ <li><a href="../Human_Impact/index.html"><button class="button"> Explore the Human Impact of Disaster<p></p></button></a></li>
+
+ <li><a href="../Perception/index.html"><button class="button"> Review Perceptions of the Impact of Disaster</button></a></li>
+
+ <li><a href="../Economic_Impact/index.html"><button class="button"> Understand the Economic Impacts of Disaster </button></a></li>
 </ul><br>
 </div><br>
-
-
-<a href="../index.html"> Home Page </a> <br>
+<br>
 
 <br>
 
