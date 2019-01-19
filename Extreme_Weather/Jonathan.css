@@ -6,6 +6,9 @@
   font-size: 30px;
 }
 
+
+/* This is to center objects, images, and charts on the page */
+
 .center {
   display: block;
   margin-left: auto;
@@ -17,10 +20,14 @@
   border: 5px solid red;
 }
 
+/* This is to create a border around all images */
+
 img {
    padding:1px;
    border:1px solid #021a40;
 }
+
+/*This is for the D3 visualization - so much code! */
 
 .chart-wrapper {
     max-width: 950px;
