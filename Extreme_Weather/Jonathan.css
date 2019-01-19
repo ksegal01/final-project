@@ -28,6 +28,10 @@ img {
 }
 
 /*This is for the D3 visualization - so much code! */
+#chart-line1 {
+  border:1px solid #021a40;
+
+}
 
 .chart-wrapper {
     max-width: 950px;
