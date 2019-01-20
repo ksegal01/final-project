@@ -2,99 +2,126 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title> Tracking Rising World Temperatures' Impact on Hurricanes</title>
+	<title> Extreme Weather Events</title>
 
-
-<br>
-<link href="Jonathan.css" rel="stylesheet" type="text/css">
-<link href="../styles.css" rel="stylesheet" type="text/css">
+<!--Adding in links to my css page and to the main css page for style consistnency-->
+	<br>
+	<link href="Jonathan.css" rel="stylesheet" type="text/css">
+	<link href="../styles.css" rel="stylesheet" type="text/css">
 
 
 </head>
 <body>
 
+	<!--adding navigating buttons consistent with the rest of the pages on the site-->
+	<br>
+	<div style="display: flex; justify-content: center;">
+	<ul>
+	<li><a href="../index.html"><button class="button"> <p></p><p></p> Home Page <p></p><p></p></button></a></li>
 
- <div class="header">
- <h1> Tracking Rising World Temperatures with Extreme Weather Events</h1>
- 
-</div> 
+	 <li><a href="../Human_Impact/index.html"><button class="button"> Explore the Human Impact of Disaster<p></p></button></a></li>
 
-<P class="center"> 
+ 	<li><a href="../Perception/index.html"><button class="button"> Review Perceptions of the Impact of Disaster</button></a></li>
 
-This page will show several visualizations that demonstrate that increase in global temperatures correlate with an increase in extreme weather events. Below you can find information about worldwide reports of hurricanes, floods, drought, and wilfires worldwide over the past century. You can see clearly that as global temperatures have risen, so have the frequency of extreme weather events.</P> 
-
+ 	<li><a href="../Economic_Impact/index.html"><button class="button"> Understand the Economic Impacts of Disaster </button></a></li>
+	</ul><br>
+	</div><br>
 <br>
 
-<h1 class="center"> Worldwide temperature has been increasing rapidly since 1880... </h1>
+<!--Introduction section-->
+ 	<div class="header">
+ 	<h1> Tracking Rising World Temperatures' Impact on Extreme Weather Events</h1>
+ 
+	</div> 
+
+	<P class="center"> 
+
+	This page will show several visualizations that demonstrate that the increase in global temperature correlates with an increase in extreme weather events. Below you can find information about worldwide reports of hurricanes, floods, drought, and wilfires over the past century. You can see clearly that as global temperatures have risen, so have the frequency of extreme weather events.</P> 
+
+	<br>
+
+<!--First chart, an image showing temperautre increase-->
+
+	<h1 class="center"> Worldwide temperature has been increasing rapidly since 1880... </h1>
 
 
 	<img src="TempChart4.png" class="center"> 
 
 	<br>
-<a class="center" href= "https://climate.nasa.gov/vital-signs/global-temperature/"> Source: NASA </a> <br>
+	<a class="center" href= "https://climate.nasa.gov/vital-signs/global-temperature/"> Source: NASA </a> <br>
 
-<br>
+	<br>
 
-<h1 class="center">...While extreme weather events are growing in frequency. </h1>
+<!--My main D3 visualization, which takes the data in the charts from the rest of the page and shows them together in one chart. I tried to put a border around the visualization but gave up after too many attempts. I am still going to break the individual weather events into seperate charts.  If there was a third sprint, I would work to turn those into D3-->
 
-	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<h1 class="center">...While extreme weather events are growing in frequency. </h1>
+
 
 	<div class="chart-wrapper" id="chart-line1" class="border"></div>
 
-	<script src="Jonathan.js" charset="utf-8"></script>
+	<br>
+	<a class="center" href= "https://ourworldindata.org/natural-disasters"> Source: Our World in Data</a>
+	<a class="center" href= "http://www.aoml.noaa.gov/hrd/tcfaq/E11.html"> Source: NOAA</a>
+	<a class="center" href= "http://bl.ocks.org/asielen/44ffca2877d0132572cb"> Visualization Source </a>
 
-<br>
-	<a class="center" href= "https://ourworldindata.org/natural-disasters"> Source: Our World in Data </a> <br>
+	<br>
 
-<br>
+<!--First image chart - hurricanes-->
 
-<h1 class="center"> For example, hurricanes and major hurricanes are becoming more frequent. </h1>
+	<h1 class="center"> For example, hurricanes and major hurricanes are becoming more frequent. </h1>
 
 
 	<img src="Hurricane_Chart.png" class="center" class="border"> <br>
 
 	<a class="center" href= "http://www.aoml.noaa.gov/hrd/tcfaq/E11.html"> Source: NOAA </a> <br>
 
-<h1 class="center"> Flood occurances have grown with the most frequnecy... </h1>
+<!--second image chart - floods-->
+
+	<h1 class="center"> Floods have grown with the most frequnecy... </h1>
 
 
-<img src="FloodChart.png" class="center" class="border"> <br>
+	<img src="FloodChart.png" class="center" class="border"> <br>
 
-<a class="center" href= "https://ourworldindata.org/natural-disasters"> Source: Our World in Data </a> <br>
+	<a class="center" href= "https://ourworldindata.org/natural-disasters"> Source: Our World in Data </a> <br>
 
+	<br>
+<!--third image chart - droughts-->
+	<h1 class="center"> ...Even as droughts become more common. </h1>
+
+	<img src="DroughtChart.png" class="center" class="border"> <br>
+
+	<a class="center" href= "https://ourworldindata.org/natural-disasters"> Source: Our World in Data </a> <br>
+
+	<br>
+
+<!--fourth image chart - wildfires-->
+	<h1 class="center"> Global reports of wildfires are increasing, as seen recently in California and other parts of the world. </h1>
+
+	<img src="WildfireChart.png" class="center" class="border"> <br>
+
+	<a class="center" href= "https://ourworldindata.org/natural-disasters"> Source: Our World in Data </a> <br>
+
+<!--Call to action!-->
+
+	<h1 class="center"> What does all of this mean in terms of costs, human lives, and policy? Visit the next pages to find out. </h1>
+
+<!--adding navigating buttons so people can go to the next page-->
+	<br>
+	<div style="display: flex; justify-content: center;">
+	<ul>
+	<li><a href="../index.html"><button class="button"> <p></p><p></p> Home Page <p></p><p></p></button></a></li>
+
+	 <li><a href="../Human_Impact/index.html"><button class="button"> Explore the Human Impact of Disaster<p></p></button></a></li>
+
+ 	<li><a href="../Perception/index.html"><button class="button"> Review Perceptions of the Impact of Disaster</button></a></li>
+
+ 	<li><a href="../Economic_Impact/index.html"><button class="button"> Understand the Economic Impacts of Disaster </button></a></li>
+	</ul><br>
+	</div><br>
 <br>
 
-<h1 class="center"> ...Conversely, droughts are rising as well. </h1>
-
-<img src="DroughtChart.png" class="center" class="border"> <br>
-
-<a class="center" href= "https://ourworldindata.org/natural-disasters"> Source: Our World in Data </a> <br>
-
 <br>
-
-<h1 class="center"> Global reports of wildfires are increasing, as we've seen in California and other parts of the world. </h1>
-
-
-<img src="WildfireChart.png" class="center" class="border"> <br>
-
-<a class="center" href= "https://ourworldindata.org/natural-disasters"> Source: Our World in Data </a> <br>
-
-<h1 class="center"> What does all of this mean in terms of costs, human lives, and policy? Visit the next pages to find out. </h1>
-
-
-<br>
-<div style="display: flex; justify-content: center;">
-<ul>
-<li><a href="Katie/index.html"><button class="button"> Human Impact of Disaster</button></a></li>>
-<li><a href="dima/index.html"><button class="button"> Economic Impacts of Disaster </button></a></li>
-<li><a href="ruha/index.html"><button class="button"> Perceived Impact of Disasters</button></a></li>
-</ul><br>
-</div><br>
-
-
-<a href="../index.html"> Home Page </a> <br>
-
-<br>
-
+	<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<script src="Jonathan.js" charset="utf-8"></script>
 </body>
 </html>

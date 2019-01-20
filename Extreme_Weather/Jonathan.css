@@ -1,10 +1,13 @@
 .header {
-  padding: 60px;
+  padding: 40px;
   text-align: center;
   background: #1abc9c;
   color: gray;
-  font-size: 30px;
+  font-size: 20px;
 }
+
+
+/* This is to center objects, images, and charts on the page */
 
 .center {
   display: block;
@@ -17,9 +20,17 @@
   border: 5px solid red;
 }
 
+/* This is to create a border around all images */
+
 img {
    padding:1px;
    border:1px solid #021a40;
+}
+
+/*This is for the D3 visualization - so much code! */
+#chart-line1 {
+  border:1px solid #021a40;
+
 }
 
 .chart-wrapper {
